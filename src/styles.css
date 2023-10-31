@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://i.pinimg.com/originals/4b/60/ee/4b60ee8563542e1f62fc55caa45d9411.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: #ff4d4d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .adicionar-button {
+    background-color: #ff6666;
+    border: none;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .adicionar-button:hover {
+    background-color: #ff8080;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+  }
+  
+  .livro-preview {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #ff4d4d;
+    box-sizing: border-box;
+  }
+  
+  .livro-preview:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .detalhes-livro {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    color: #ff4d4d;
+    box-sizing: border-box;
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    color: #ff4d4d;
+    box-sizing: border-box;
+    margin: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff4d4d;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    background-color: #ff6666;
+    border: none;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #ff8080;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+  }
